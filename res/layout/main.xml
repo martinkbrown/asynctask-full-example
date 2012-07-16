@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start"
+        android:inputType="number"
+        android:ems="4"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="end"
+        android:inputType="number"
+        android:ems="4"
+        android:text="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:ems="4"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+   
+     <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+     <Button
+         android:id="@+id/toaster"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Toast Button" />
+    
+</LinearLayout>
