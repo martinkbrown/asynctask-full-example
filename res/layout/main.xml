@@ -9,19 +9,19 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="start"
+        android:hint="@string/start_hint"
         android:inputType="number"
         android:ems="4"
-        android:text="0" />
+        android:text="@string/start_text" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="end"
+        android:hint="@string/end_hint"
         android:inputType="number"
         android:ems="4"
-        android:text="10" >
+        android:text="@string/end_text" >
 
         <requestFocus />
     </EditText>
@@ -38,12 +38,12 @@
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start" />
+        android:text="@string/start_button_text" />
 
      <Button
          android:id="@+id/toaster"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="Toast Button" />
+         android:text="@string/toast_button_text" />
     
 </LinearLayout>
